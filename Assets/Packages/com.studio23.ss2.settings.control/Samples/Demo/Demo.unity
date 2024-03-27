@@ -366,7 +366,7 @@ PrefabInstance:
     - target: {fileID: 3884952486902858702, guid: 48f23d55f0e852448bb4d8c6bcbc1343, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 73321204}
+      objectReference: {fileID: 751494598}
     - target: {fileID: 3884952486902858702, guid: 48f23d55f0e852448bb4d8c6bcbc1343, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -377,7 +377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3884952486902858702, guid: 48f23d55f0e852448bb4d8c6bcbc1343, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ControllerSettingsController, Assembly-CSharp
+      value: ControlSettingsConfiguration, com.studio23.ss2.settings.control
       objectReference: {fileID: 0}
     - target: {fileID: 3884952486902858702, guid: 48f23d55f0e852448bb4d8c6bcbc1343, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -742,14 +742,14 @@ PrefabInstance:
     - target: {fileID: 2523019050476617127, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 73321204}
+      objectReference: {fileID: 751494598}
     - target: {fileID: 2523019050476617127, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InvertXAxis
+      value: ToggleInvertXAxis
       objectReference: {fileID: 0}
     - target: {fileID: 2523019050476617127, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ControllerSettingsController, Assembly-CSharp
+      value: ControlSettingsConfiguration, com.studio23.ss2.settings.control
       objectReference: {fileID: 0}
     - target: {fileID: 2698976159942239415, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_AnchorMax.y
@@ -906,16 +906,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958506763198761024, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958506763198761024, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 73321204}
+      objectReference: {fileID: 751494598}
     - target: {fileID: 7958506763198761024, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InvertXAxis
+      value: ToggleInvertXAxis
       objectReference: {fileID: 0}
     - target: {fileID: 7958506763198761024, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ControllerSettingsController, Assembly-CSharp
+      value: ControlSettingsConfiguration, com.studio23.ss2.settings.control
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1046,14 +1050,14 @@ PrefabInstance:
     - target: {fileID: 2523019050476617127, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 73321204}
+      objectReference: {fileID: 751494598}
     - target: {fileID: 2523019050476617127, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InvertYAxis
+      value: ToggleInvertYAxis
       objectReference: {fileID: 0}
     - target: {fileID: 2523019050476617127, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ControllerSettingsController, Assembly-CSharp
+      value: ControlSettingsConfiguration, com.studio23.ss2.settings.control
       objectReference: {fileID: 0}
     - target: {fileID: 2698976159942239415, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1212,16 +1216,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958506763198761024, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958506763198761024, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 73321204}
+      objectReference: {fileID: 751494598}
     - target: {fileID: 7958506763198761024, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InvertYAxis
+      value: ToggleInvertYAxis
       objectReference: {fileID: 0}
     - target: {fileID: 7958506763198761024, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ControllerSettingsController, Assembly-CSharp
+      value: ControlSettingsConfiguration, com.studio23.ss2.settings.control
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958506763198761024, guid: 5488e3d4bed9d1a4b8870dab6cb9b9a8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1441,7 +1453,7 @@ PrefabInstance:
     - target: {fileID: 3884952486902858702, guid: 48f23d55f0e852448bb4d8c6bcbc1343, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 73321204}
+      objectReference: {fileID: 751494598}
     - target: {fileID: 3884952486902858702, guid: 48f23d55f0e852448bb4d8c6bcbc1343, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1452,7 +1464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3884952486902858702, guid: 48f23d55f0e852448bb4d8c6bcbc1343, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ControllerSettingsController, Assembly-CSharp
+      value: ControlSettingsConfiguration, com.studio23.ss2.settings.control
       objectReference: {fileID: 0}
     - target: {fileID: 3884952486902858702, guid: 48f23d55f0e852448bb4d8c6bcbc1343, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
