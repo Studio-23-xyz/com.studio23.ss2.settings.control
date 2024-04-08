@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e403400e56f35c849afad14e548b0d1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _controlSettingsConfiguration: {fileID: 751494598}
+  _controlSettings: {fileID: 0}
   _invertX: {fileID: 1613863265}
   _invertY: {fileID: 1407825058}
   _mouseSensitivity: {fileID: 374640110}
@@ -711,10 +711,7 @@ MonoBehaviour:
   _inputActionReference: {fileID: 5758456375998153308, guid: 06b9570a0080f18488d761bd1e4781f1, type: 3}
   _mouseSensitivityMultiplier: 1
   _controllerSensitivityMultiplier: 0.7
-  _invertXAtStart: 0
-  _invertYAtStart: 0
-  _mouseSensitivityAtStart: 1
-  _controllerSensitivityAtStart: 0.5
+  _controlSettingsConfiguration: {fileID: 11400000, guid: fa196c1028eccf4428ecfdbb186cbb77, type: 2}
 --- !u!1001 &950160417
 PrefabInstance:
   m_ObjectHideFlags: 0
