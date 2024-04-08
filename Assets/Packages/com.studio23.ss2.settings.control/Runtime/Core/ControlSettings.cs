@@ -15,12 +15,12 @@ namespace Studio23.SS2.Settings.Core
         [SerializeField] private ControlSettingsConfiguration _controlSettingsConfiguration;
 
 
-        public void Initialize(int xAxis, int yAxis, float mouseSen, float controllerSen)
+        public void Initialize(ControlSettingsConfiguration data)
         {
-            InvertXAxis(xAxis);
-            InvertYAxis(yAxis);
-            UpdateMouseSensitivity(mouseSen);
-            UpdateControllerSensitivity(controllerSen);
+            InvertXAxis(data.IsInvertX);
+            InvertYAxis(data.IsInvertY);
+            UpdateMouseSensitivity(data.MouseSensitivity);
+            UpdateControllerSensitivity(data.ControllerSensitivity);
         }
 
         /// <summary>
@@ -95,10 +95,10 @@ namespace Studio23.SS2.Settings.Core
             return gamepadGroupsName;
         }
 
-        public int ReturnDefaultInvertX() => _controlSettingsConfiguration.InvertXAtStart;
-        public int ReturnDefaultInvertY() => _controlSettingsConfiguration.InvertYAtStart;
-        public float ReturnDefaultMouseSensitivity() => _controlSettingsConfiguration.MouseSensitivityAtStart;
-        public float ReturnDefaultControllerSensitivity() => _controlSettingsConfiguration.ControllerSensitivityAtStart;
+        public int ReturnDefaultInvertX() => _controlSettingsConfiguration.IsInvertX;
+        public int ReturnDefaultInvertY() => _controlSettingsConfiguration.IsInvertY;
+        public float ReturnDefaultMouseSensitivity() => _controlSettingsConfiguration.MouseSensitivity;
+        public float ReturnDefaultControllerSensitivity() => _controlSettingsConfiguration.ControllerSensitivity;
 
     }
 
