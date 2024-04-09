@@ -12,6 +12,8 @@ namespace  Studio23.SS2.Settings.Control.Data
         public float MouseSensitivity;
         public float ControllerSensitivity;
 
+        public ControlSettingsConfiguration(){}
+
         public ControlSettingsConfiguration(int invertX, int invertY, float mouseSen, float controllerSen)
         {
             IsInvertX= invertX;
